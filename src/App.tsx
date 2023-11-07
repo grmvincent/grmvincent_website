@@ -5,6 +5,8 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import NoMatch from "./pages/nomatch/NoMatch";
 
+import './App.scss';
+
 function App() {
   return (
     <Routes>
