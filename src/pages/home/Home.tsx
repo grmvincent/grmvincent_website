@@ -1,6 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 function Home() {
+    useEffect(() => {
+        document.title = 'grmvincent | home';
+    }, []);
+
     return (
         <div>
             <h1>Home</h1>
